@@ -77,7 +77,7 @@ See also [Poseidon::PartitionConsumer](http://www.rubydoc.info/github/bpot/posei
       default_partition_key (string)   :default => nil
       output_data_type    (json|ltsv|msgpack|attr:<record name>|<formatter name>)
       output_include_tag  (true|false) :default => false
-      output_include_time (true|false) :default => false
+      logstash_format     (true|false) :default => false
       max_send_retries    (integer)    :default => 3
       required_acks       (integer)    :default => 0
       ack_timeout_ms      (integer)    :default => 1500
